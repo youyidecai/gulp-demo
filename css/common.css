@@ -1,0 +1,140 @@
+/*general start*/
+i.circle {
+    margin: 0;
+}
+
+input[type=search],input[type=button],input[type=submit],input[type=reset] {
+    -webkit-appearance: none;
+}
+
+cite,var,address,em {
+    font-style: normal;
+}
+
+strong {
+    font-weight: 400;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,iframe {
+    border: 0;
+}
+
+ol,ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+input,textarea,select,button {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    margin: 0;
+    outline: none;
+}
+
+select,button,input {
+    color: inherit;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+}
+
+html {
+    font-size: 110px;
+}
+
+body {
+    font: 14px/1.5 Arial, "Microsoft Yahei";
+    /**字体大小 * 行边距 = 行高**/
+    min-width: 320px;
+    max-width: 480px;
+    margin: 0 auto !important;
+    color: #333;
+    position: relative;
+    overflow-x: hidden;
+    background: #fff;
+}
+
+a {
+    color: #333;
+}
+img {
+    max-width: 100%;
+    font-style: italic;
+    border: 0;
+}
+p {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+em {
+    font-style: normal;
+}
+.clearfix {
+    zoom:1;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.hide {
+    display: none;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
+
+@media (device-height: 480px) and (-webkit-min-device-pixel-ratio:2) {
+    /* 兼容iphone4/4s */
+    html {
+        font-size: 85px;
+    }
+}
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio:2) {
+    /* 兼容iphone5 */
+    html {
+        font-size: 85px;
+    }
+}
+@media (device-height: 667px) and (-webkit-min-device-pixel-ratio:2) {
+    /* 兼容iphone6 */
+    html {
+            font-size: 100px;
+        }
+}
+@media (device-height: 736px) and (-webkit-min-device-pixel-ratio:2) {
+    /* 兼容iphone6 Plus */
+    html {
+        font-size: 110px;
+    }
+}
+@media (max-width: 360px ) {
+    
+}
